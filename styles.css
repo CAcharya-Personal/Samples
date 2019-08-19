@@ -1,0 +1,63 @@
+/*****************************************
+  Main Navigation
+*****************************************/
+ul#nav {
+	margin: 0;
+	padding: 0;
+}
+
+ul#nav li {
+	text-align: left;
+	float: left;
+	list-style: none;
+	padding: 4px;
+	margin-right: 16px;
+}
+
+ul#nav li.highlight {
+	background-color: #E6E6E6;
+}
+
+ul#nav li a {
+	text-decoration: none;
+	color: #444444;
+	font-weight: bold;
+}
+
+ul#nav li a:hover {
+	color: #991121;
+}
+
+#welcome {                                                                                                                          
+	text-align: right;                                                                                                          
+	color: #999999;                                                                                                             
+}
+
+/*****************************************
+	Content
+*****************************************/
+#content {
+	width: 100%;
+	/*padding-top: 20px;*/
+	/*text-align: center;*/
+	clear: both;
+	/*display: inline-block;*/
+}
+
+a:hover {
+	text-decoration: underline;
+	color: red;
+}
+
+/*****************************************
+  Misc Styles
+*****************************************/
+hr {
+	clear: both;
+	height: 4px;
+	border: 0px;
+	color: #EFEFEF;
+	background-color: #CCCCCC;
+	margin: 0;
+	padding: 0;
+}
